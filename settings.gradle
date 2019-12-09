@@ -1,1 +1,1 @@
-include ':app', ':richpath', ':animator', 'richpathbuildSrc'
+include ':app', ':richpath', ':animator', 'buildSrc'
