@@ -4,14 +4,16 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.content.res.XmlResourceParser;
 import android.graphics.Path;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
 
 import com.richpath.model.Vector;
 import com.richpath.pathparser.PathParser;
@@ -25,7 +27,7 @@ import java.io.IOException;
  * Created by tarek on 6/29/17.
  */
 
-public class RichPathView extends ImageView {
+public class RichPathView extends AppCompatImageView {
 
     private Vector vector;
     private RichPathDrawable richPathDrawable;
