@@ -24,11 +24,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile("com.android.support.test.espresso:espresso-core:$espressoVersion", {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testCompile "junit:junit:$junitVersion"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation "junit:junit:$junitVersion"
 
     compile project(path: ':richpath')
 }

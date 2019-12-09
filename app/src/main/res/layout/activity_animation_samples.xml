@@ -17,10 +17,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Tap any shape to animate it!"
+            android:text="@string/tap_any_shape_to_animate_it"
             android:textSize="18sp" />
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp">
@@ -33,6 +33,7 @@
                 android:padding="8dp"
                 app:layout_constraintEnd_toStartOf="@+id/love_face"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 app:vector="@drawable/ic_command" />
 
             <com.richpath.RichPathView
@@ -44,6 +45,7 @@
                 android:padding="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/ic_command"
+                app:layout_constraintTop_toTopOf="parent"
                 app:vector="@drawable/face_love" />
 
             <com.richpath.RichPathView
@@ -93,7 +95,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/ic_arrow_search"
                 app:vector="@drawable/ic_playlist_add_check" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 </ScrollView>

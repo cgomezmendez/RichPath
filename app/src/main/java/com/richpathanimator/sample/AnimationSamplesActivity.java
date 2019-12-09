@@ -1,16 +1,14 @@
 package com.richpathanimator.sample;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.richpath.RichPath;
 import com.richpath.RichPathView;
-import com.richpathanimator.AnimationListener;
 import com.richpathanimator.RichPathAnimator;
 
 public class AnimationSamplesActivity extends AppCompatActivity {

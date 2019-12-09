@@ -9,4 +9,5 @@
     <string name="animation_samples">Animation Samples</string>
     <string name="compound_view_samples">Compound View Samples</string>
     <string name="pick_a_color">Pick a color</string>
+    <string name="tap_any_shape_to_animate_it">Tap any shape to animate it!</string>
 </resources>
